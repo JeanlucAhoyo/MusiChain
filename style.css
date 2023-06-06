@@ -1,0 +1,25 @@
+
+
+.menu {
+    background-color: #020E01;
+    color: white;
+}
+
+.menu a {
+    color: white;
+}
+
+.list-elements {
+    list-style: none;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.list-elements li {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.name-out {
+    text-decoration: none;
+}
