@@ -23,3 +23,103 @@
 .name-out {
     text-decoration: none;
 }
+
+.Back-to {
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.texas {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="text"] {
+  background-color: transparent;
+  /* border-color: black; */
+  border-color:darkslategrey;
+  outline: none;
+  color: black;
+  border-radius: 10px;
+  width: 270px;
+}
+
+input[type="file"] {
+  color: black;
+  border-radius: 10px;
+  width: 270px;
+  height: 50px;
+}
+
+.inputs {
+    font-weight: bold;
+}
+
+label[for="nom"] {
+  margin-right: 250px;
+  margin-top: 7px;
+  margin-left: 5px;
+}
+
+label[for="username"] {
+  margin-left: 5px;
+  margin-top: 7px;
+  margin-right: 320px;
+}
+
+label[for="shares"] {
+  margin-right: 160px;
+  margin-top: 7px;
+  margin-left: 5px;
+}
+
+label[for="shares-price"] {
+  margin-right: 152px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+label[for="ticket"] {
+  margin-right: 118px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+label[for="pool"] {
+  margin-right: 167px;
+  margin-top: 18px;
+  margin-left: 5px;
+}
+
+label[for="image"] {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+label[for="music"] {
+  margin-top: 18px;
+  margin-left: 5px;
+}
+
+.file input[type="file"] {
+    color: black;
+    border-radius: 10px;
+    width: 270px;
+    height: 50px;
+}
+
+
+.boutton {
+    display: flex;
+    justify-content: end;
+    margin-right: 320px;
+    margin-top: 30px;
+}
+
+.boutton button {
+    background-color: #16BF07;
+    border-radius: 15px;
+    width: 200px;
+    height: 70px;
+}
