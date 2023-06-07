@@ -102,13 +102,25 @@ label[for="music"] {
   margin-left: 5px;
 }
 
-.file input[type="file"] {
+/* .file input[type="file"] {
     color: black;
     border-radius: 10px;
     width: 270px;
     height: 50px;
-}
+    
+} */
 
+.file input[type="file"]::file-selector-button {
+  content: "Choose file";
+  display: inline-block;
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
 
 .boutton {
     display: flex;
@@ -122,4 +134,9 @@ label[for="music"] {
     border-radius: 15px;
     width: 200px;
     height: 70px;
+}
+
+audio {
+  background-color: black;
+  border-radius: 02%;
 }
