@@ -37,7 +37,7 @@
     justify-content: space-between;
 }
 
-input[type="text"] {
+.inputs input[type="text"] {
   background-color: transparent;
   border-color:darkslategrey;
   outline: none;
@@ -46,7 +46,7 @@ input[type="text"] {
   width: 270px;
 }
 
-input[type="file"] {
+.inputs input[type="file"] {
   color: black;
   border-radius: 10px;
   width: 270px;
@@ -57,48 +57,48 @@ input[type="file"] {
     font-weight: bold;
 }
 
-label[for="nom"] {
+.inputs label[for="nom"] {
   margin-right: 250px;
   margin-top: 7px;
   margin-left: 5px;
 }
 
-label[for="username"] {
+.inputs label[for="username"] {
   margin-left: 5px;
   margin-top: 7px;
   margin-right: 320px;
 }
 
-label[for="shares"] {
+.inputs label[for="shares"] {
   margin-right: 160px;
   margin-top: 7px;
   margin-left: 5px;
 }
 
-label[for="shares-price"] {
+.inputs label[for="shares-price"] {
   margin-right: 152px;
   margin-top: 15px;
   margin-left: 5px;
 }
 
-label[for="ticket"] {
+.inputs label[for="ticket"] {
   margin-right: 118px;
   margin-top: 15px;
   margin-left: 5px;
 }
 
-label[for="pool"] {
+.inputs label[for="pool"] {
   margin-right: 167px;
   margin-top: 18px;
   margin-left: 5px;
 }
 
-label[for="image"] {
+.inputs label[for="image"] {
   margin-top: 10px;
   margin-left: 5px;
 }
 
-label[for="music"] {
+.inputs label[for="music"] {
   margin-top: 18px;
   margin-left: 5px;
 }
@@ -172,7 +172,7 @@ label[for="music"] {
   font-weight: bold;
 }
 
-tr th {
+.table tr th {
   border-color: transparent;
 }
 
@@ -237,4 +237,62 @@ tr th {
   border-radius: 15px;
   height: 40px;
   width: 220px;
+}
+
+/**MARKET**/
+.welcome-market {
+  margin-top: 40px;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.welcome-market h2 {
+  font-weight: bold;
+}
+
+.welcome-market input[type="text"] {
+  background-color: transparent;
+  outline: none;
+  border-radius: 25px;
+  border-color: #000000;
+  width: 450px;
+  height: 53px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.search p {
+  margin-top: 10px;
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.tables {
+  width: 1950px;
+  border-spacing: 30px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.tables th {
+  padding-right: 190px;
+}
+
+.articles {
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid black;
+  border-color: black;
+  margin-top: 10px;
+  margin-left: 15px;
+  width: 1790px;
+  height: 85px;
+  display: flex;
+  align-items: center;
 }
