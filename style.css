@@ -274,14 +274,11 @@
 }
 
 .tables {
-  width: 1950px;
-  border-spacing: 30px;
   margin-top: 20px;
   margin-left: 40px;
-}
-
-.tables th {
-  padding-right: 190px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
 }
 
 .articles {
