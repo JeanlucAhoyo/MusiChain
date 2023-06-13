@@ -1,151 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="../icon.png" />
-    <title>MusiChain</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link href="../style.css" rel="stylesheet" />
-  </head>
-  <body>
-    <!-- NAV BAR -->
-    <nav class="navbar navbar-expand-lg menu">
-      <div class="container-fluid">
-        <a
-          class="navbar-brand"
-          style="padding-bottom: 10px"
-          href="../index.html"
-          ><img src="../logo.png" alt="the-logo"
-        /></a>
-        <a href="../index.html" style="text-decoration: none; font-weight: bold"
-          ><h2>MusiChain</h2></a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarText"
-          aria-controls="navbarText"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 list-elements">
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="../market/index.html"
-                >Market</a
-              >
-            </li>
-            <li class="nav-item"><a class="nav-link" href="#">Wallet</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Creator</a></li>
-          </ul>
-          <ul class="navbar-nav end-50 name-out">
-            <li class="nav-item">
-              <a class="nav-link" href="#">testUserName</a>
-            </li>
-            <li class="nav-item" style="font-weight: bold">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Log out</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!--   Create Token   -->
-    <div class="Back-to">
-      <a href="../index.html" style="text-decoration: none; color: black"
-        >< Back to Your Creations</a
-      >
-    </div>
-    <br />
-    <div class="row texas">
-      <div class="col-6">
-        <img src="images/texas-sun.png" alt="sunn" /><br /><br /><br /><br />
-        <div class="audio">
-          <img
-            src="images/launch.png"
-            style="margin-top: 10px; margin-left: 10px; margin-right: 20px"
-          /><img
-            src="images/audio.png"
-            style="margin-top: 5px; margin-left: 30px"
-          />
-        </div>
-      </div>
 
-      <div class="col-6 inputs">
-        <h2>Create New Token</h2>
-        <br />
-        <label for="nom">Name:</label>
-        <input type="text" id="nom" name="nom" /><br />
-        <label for="username">Creating username:</label>
-        <input
-          type="text"
-          id="username"
-          name="username"
-          placeholder="Khrunangbin"
-          style="width: 100px; background-color: transparent; border: none"
-        /><br />
-        <label for="nom">Artist:</label>
-        <input type="text" id="artist" name="artist" /><br />
-        <h3 style="margin-top: 25px">Initial Share Offering</h3>
-        <br />
-        <label for="shares">Number of shares:</label>
-        <input type="text" id="n_share" name="n_share" /><br />
-        <label for="shares-price">Initial price/shares:</label>
-        <input type="text" id="price" name="price" /><br />
-        <h3 style="margin-top: 30px">Dividend Plan</h3>
-        <br />
-        <label for="ticket">Dividend per ticket sold</label>
-        <input type="text" id="ticket" name="ticket" /><br />
-        <label for="pool">Initial ticket pool</label>
-        <input type="text" id="pool" name="pool" /><br />
-        <h3 style="margin-top: 30px">Upload Media</h3>
-        <br />
-        <div class="mb-3 file">
-          <label for="formFile" class="form-label">Load Token image:</label>
-          <input
-            class="form-control"
-            type="file"
-            style="
-              padding-top: 10px;
-              padding-left: 20px;
-              width: 577px;
-              height: 55px;
-            "
-            id="formFile"
-          />
-        </div>
-        <div class="mb-3 file">
-          <label for="music">Load Music Preview:</label>
-          <input
-            class="form-control"
-            type="file"
-            style="
-              padding-top: 10px;
-              padding-left: 20px;
-              width: 577px;
-              height: 55px;
-            "
-            id="formFile"
-          />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="../icon.png" />
+  <title>MusiChain</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link href="../style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- NAV BAR -->
+  <nav class="navbar navbar-expand-lg menu">
+    <div class="container-fluid">
+      <a class="navbar-brand" style="padding-bottom: 10px" href="../index.html"><img src="../logo.png"
+          alt="the-logo" /></a>
+      <a href="../index.html" style="text-decoration: none; font-weight: bold">
+        <h2>MusiChain</h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 list-elements">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../market/index.html">Market</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Wallet</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Creator</a></li>
+        </ul>
+        <ul class="navbar-nav end-50 name-out">
+          <li class="nav-item">
+            <a class="nav-link" href="#">testUserName</a>
+          </li>
+          <li class="nav-item" style="font-weight: bold">
+            <a class="nav-link active" aria-current="page" href="#">Log out</a>
+          </li>
+        </ul>
       </div>
     </div>
-    <div class="boutton">
-      <button type="button" class="btn btn-success btn-lg">Submit</button>
+  </nav>
+  <!--   Create Token   -->
+  <div class="Back-to">
+    <a href="../index.html" style="text-decoration: none; color: black">
+      < Back to Your Creations</a>
+  </div>
+  <br />
+  <div class="row texas">
+    <div class="col-6">
+      <img src="images/texas-sun.png" alt="sunn" /><br /><br /><br /><br />
+      <div class="audio">
+        <img src="images/launch.png" style="margin-top: 10px; margin-left: 10px; margin-right: 20px" /><img
+          src="images/audio.png" style="margin-top: 5px; margin-left: 30px" />
+      </div>
     </div>
-  </body>
+
+    <div class="col-6 inputs">
+      <h2>Create New Token</h2>
+      <br />
+      <label for="nom">Name:</label>
+      <input type="text" id="nom" name="nom" /><br />
+      <label for="username">Creating username:</label>
+      <input type="text" id="username" name="username" placeholder="Khrunangbin"
+        style="width: 100px; background-color: transparent; border: none" /><br />
+      <label for="nom">Artist:</label>
+      <input type="text" id="artist" name="artist" /><br />
+      <h3 style="margin-top: 25px">Initial Share Offering</h3>
+      <br />
+      <label for="shares">Number of shares:</label>
+      <input type="text" id="n_share" name="n_share" /><br />
+      <label for="shares-price">Initial price/shares:</label>
+      <input type="text" id="price" name="price" /><br />
+      <h3 style="margin-top: 30px">Dividend Plan</h3>
+      <br />
+      <label for="ticket">Dividend per ticket sold</label>
+      <input type="text" id="ticket" name="ticket" /><br />
+      <label for="pool">Initial ticket pool</label>
+      <input type="text" id="pool" name="pool" /><br />
+      <h3 style="margin-top: 30px">Upload Media</h3>
+      <br />
+      <div class="mb-3 file">
+        <label for="formFile" class="form-label">Load Token image:</label>
+        <input class="form-control" type="file" style="
+              padding-top: 10px;
+              padding-left: 20px;
+              width: 577px;
+              height: 55px;
+            " id="formFile" />
+      </div>
+      <div class="mb-3 file">
+        <label for="music">Load Music Preview:</label>
+        <input class="form-control" type="file" style="
+              padding-top: 10px;
+              padding-left: 20px;
+              width: 577px;
+              height: 55px;
+            " id="formFile" />
+      </div>
+    </div>
+  </div>
+  <div class="boutton">
+    <button type="button" class="btn btn-success btn-lg">Submit</button>
+  </div>
+</body>
+
 </html>

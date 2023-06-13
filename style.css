@@ -293,3 +293,98 @@
   display: flex;
   align-items: center;
 }
+
+/***Preview***/
+.creator {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-left: 10px;
+}
+
+.audios {
+  display: flex;
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid black;
+  border-color: black;
+  width: 538px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.stream {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.buy-order {
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid black;
+  border-color: black;
+  width: 743px;
+  height: 175px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.buy-order span {
+  font-weight: bold;
+}
+
+.buy-order row {
+  margin-bottom: 10px;
+}
+
+.information {
+  margin-top: 10px;
+  padding-left: 25px;
+}
+
+.information div {
+  display: flex;
+}
+
+.information span {
+  margin-right: 10px;
+}
+
+.button-order {
+  margin-top: 25px;
+}
+
+.offer {
+  color: #000000;
+  border: 1px solid black;
+  margin-left: 35px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  height: 40px;
+  width: 220px;
+}
+
+.program {
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid black;
+  border-color: black;
+  width: 752px;
+  height: 226px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.program h4 {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.category {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.category span {
+  font-weight: bold;
+}
