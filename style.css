@@ -172,11 +172,11 @@
   font-weight: bold;
 }
 
-.table tr th {
+.creations tr th {
   border-color: transparent;
 }
 
-.table {
+.creations .table {
   width: 1200px;
   border-spacing: 15px;
   margin-top: 20px;
@@ -382,9 +382,88 @@
 }
 
 .category {
-  margin-left: 20px;
-  margin-top: 10px;
+  padding-left: 30px;
+  padding-top: 10px;
 }
 .category span {
   font-weight: bold;
+}
+
+.category div {
+  margin-bottom: 10px;
+}
+
+.elements-category {
+  padding-top: 10px;
+  display: block;
+}
+
+.elements-category div{
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: end;
+  padding-right: 50px;
+}
+
+.history {
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid black;
+  border-color: black;
+  width: 752px;
+  height: 226px;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-right: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.history .table, .distrib .table {
+  margin-left: 10px;
+}
+
+.history table, .distrib table {
+  border-collapse: collapse;
+}
+
+.history tr, .distrib tr {
+  border: 1px solid white;
+}
+
+.history td,th {
+  border: none;
+}
+
+.distrib td,th {
+  border: none;
+}
+
+.history::-webkit-scrollbar, .distrib::-webkit-scrollbar {
+  width: 16px;
+}
+
+.history::-webkit-scrollbar-track, .distrib::-webkit-scrollbar-track {
+  border: 1px solid black;
+  border-color: black;
+  border-radius: 100px;
+}
+
+.history::-webkit-scrollbar-thumb, .distrib::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 100px;
+}
+
+.distrib {
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid black;
+  border-color: black;
+  width: 600px;
+  height: 226px;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-right: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }

@@ -16,8 +16,11 @@
     <!-- NAV BAR -->
     <nav class="navbar navbar-expand-lg menu">
         <div class="container-fluid">
-            <a class="navbar-brand" style="padding-bottom: 10px" href="../../index.html"><img src="../../logo.png" alt="the-logo" /></a>
-            <a href="../../index.html" style="text-decoration: none; font-weight: bold"><h2>MusiChain</h2></a>
+            <a class="navbar-brand" style="padding-bottom: 10px" href="../../index.html"><img src="../../logo.png"
+                    alt="the-logo" /></a>
+            <a href="../../index.html" style="text-decoration: none; font-weight: bold">
+                <h2>MusiChain</h2>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,43 +47,178 @@
     <!--   Preview   -->
     <div class="container-fluid">
         <div class="row creator">
-            <div class="col-md-5 images"><img src="images/bird.png"></div>
+            <div class="col-md-5 images">
+                <img src="images/bird.png">
+                <div class="distrib">
+                    <h5 style="font-weight: bold;margin-left: 10px;margin-top: 10px;">Ownership Distribution</h5>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">User</th>
+                                <th scope="col">owned shares</th>
+                                <th scope="col">tot. shares in market</th>
+                                <th scope="col">%</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">User x</th>
+                                <td>2</td>
+                                <td>700</td>
+                                <td>0.03</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">User y</th>
+                                <td>200</td>
+                                <td>700</td>
+                                <td>28.57</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">User z</th>
+                                <td>498</td>
+                                <td>700</td>
+                                <td>71.03</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Lucie</th>
+                                <td>500</td>
+                                <td>700</td>
+                                <td>751.03</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">User 5</th>
+                                <td>1</td>
+                                <td>700</td>
+                                <td>1.03</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
             <div class="col-md-7 infos">
                 <span style="font-weight: bold;padding-right: 10px;">Creator</span>
                 <span>ParovStelarUserName</span><br><br>
                 <div class="stream">
-                    <div class="audios"><a href="#"><img src="images/player.png" style="width: 60px;height: 60px; margin-top: 9px; margin-left: 10px;margin-right: 10px"/></a><a href="#"><img src="images/audio.png" style="width: 440px;height: 60px;margin-top: 10px;"/></a></div>
-                    <img style="margin-left: 20px; margin-right: 20px;" src="images/spotify.png"><img src="images/cloud.png">
+                    <div class="audios"><a href="#"><img src="images/player.png"
+                                style="width: 60px;height: 60px; margin-top: 9px; margin-left: 10px;margin-right: 10px" /></a><a
+                            href="#"><img src="images/audio.png"
+                                style="width: 440px;height: 60px;margin-top: 10px;" /></a></div>
+                    <img style="margin-left: 20px; margin-right: 20px;" src="images/spotify.png"><img
+                        src="images/cloud.png">
                 </div>
                 <div class="buy-order">
                     <div class="row">
                         <div class="col-md-6 information">
-                            <div><span>Owner:</span><p>User z</p></div>
-                            <div><span>Price per share:</span><p>2 ETH</p></div>
-                            <div><span>Offered shares:</span><p>26</p></div>
-                            <div><span>Available shares:</span><p>24</p></div>
+                            <div><span>Owner:</span>
+                                <p>User z</p>
+                            </div>
+                            <div><span>Price per share:</span>
+                                <p>2 ETH</p>
+                            </div>
+                            <div><span>Offered shares:</span>
+                                <p>26</p>
+                            </div>
+                            <div><span>Available shares:</span>
+                                <p>24</p>
+                            </div>
                         </div>
                         <div class="col-md-6 button-order">
                             <a href="#"><button type="button" class="btn btn-dark spotify">Buy now</button></a>
                             <a href="#"><button type="button" class="btn btn-light offer">Make offer</button></a>
                         </div>
                     </div>
-                </div> 
+                </div>
                 <div class="program">
                     <h4>Dividend Program</h4>
                     <div class="row">
                         <div class="col-md-6 category">
-                            <span>Dividend per ticket sold</span><br>
-                            <span>Initial ticket pool</span><br>
-                            <span>Remaining dividend-eligible tickets</span><br>
-                            <span>Remaining dividend potential</span>
+                            <div><span>Dividend per ticket sold</span></div>
+                            <div><span>Initial ticket pool</span></div>
+                            <div><span>Remaining dividend-eligible tickets</span></div>
+                            <div><span>Remaining dividend potential</span></div>
                         </div>
-                        <div class="col-md-6"></div>
+                        <div class="col-md-6 elements-category">
+                            <div>0.00001 ETH</div>
+                            <div>200 000</div>
+                            <div>54 543</div>
+                            <div>0.54 ETH</div>
+                        </div>
                     </div>
-                </div>  
+                </div>
+                <div class="history">
+                    <h5 style="font-weight: bold;margin-left: 10px;margin-top: 10px;">Bid History</h5>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">User</th>
+                                <th scope="col">bid/share</th>
+                                <th scope="col">num.share</th>
+                                <th scope="col">total bid</th>
+                                <th scope="col">bid date</th>
+                                <th scope="col">bid date</th>
+                                <th scope="col">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">User 1</th>
+                                <td>2 ETH</td>
+                                <td>2</td>
+                                <td>3 ETH</td>
+                                <td>23/05/21</td>
+                                <td>17:04</td>
+                                <td>Accepted</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">User 2</th>
+                                <td>2.4 ETH</td>
+                                <td>15</td>
+                                <td>3 ETH</td>
+                                <td>23/05/21</td>
+                                <td>17:04</td>
+                                <td>Pending</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">User 3</th>
+                                <td>2.5 ETH</td>
+                                <td>2</td>
+                                <td>3 ETH</td>
+                                <td>23/05/21</td>
+                                <td>17:04</td>
+                                <td>Refused</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">User 4</th>
+                                <td>2 ETH</td>
+                                <td>2</td>
+                                <td>3 ETH</td>
+                                <td>23/05/21</td>
+                                <td>17:04</td>
+                                <td>Refused</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">User 5</th>
+                                <td>1.8 ETH</td>
+                                <td>5</td>
+                                <td>3 ETH</td>
+                                <td>23/05/21</td>
+                                <td>17:04</td>
+                                <td>Refused</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Lucie</th>
+                                <td>8.5 ETH</td>
+                                <td>66</td>
+                                <td>3.5 ETH</td>
+                                <td>23/05/21</td>
+                                <td>17:04</td>
+                                <td>Accepted</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
 </body>
-
 </html>
